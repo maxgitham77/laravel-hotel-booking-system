@@ -1,0 +1,93 @@
+.service-body {
+}
+
+
+.service-main-title {
+    text-align: center;
+    max-width: 900px;
+    margin: 0px auto;
+    margin-bottom: 70px;
+}
+
+.service-main-title h1 {
+    font-size: 24px;
+    text-transform: uppercase;
+    margin: 0 0 20px;
+    padding-top: 30px;
+    color: #333;
+    font-weight: 700;
+}
+
+.hotel-service-2 {
+    text-align: center;
+    padding: 60px 0px;
+}
+
+.hotel-service-2 .content {
+    max-width: 262px;
+    margin: 0px auto;
+    margin-bottom: 30px;
+}
+
+.hotel-service-2 .content i {
+    color: #ed5565;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    font-size: 27px;
+    display: inline-block;
+}
+
+.hotel-service-3 .details {
+    padding: 50px;
+}
+
+.hotel-service-3 .details h5 {
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 0px;
+    letter-spacing: 1px;
+    color: #A38307;
+}
+
+.hotel-service-3 .details h1 {
+    margin: 0 0 15px;
+    font-size: 30px;
+    border-bottom: solid 1px #dfdfdf;
+    padding-bottom: 15px;
+    color: #333;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.hotel-service-3 .details p {
+    font-size: 16px;
+    text-align: justify;
+    line-height: 30px;
+    color: #7B7B7B;
+    margin-bottom: 20px;
+}
+
+.hotel-service-3 {
+    padding-top: 50px;
+}
+
+.hotel-service-3 .service-box {
+    margin-bottom: 100px;
+    background: #fff;
+    box-shadow: 0 0 30px 0 rgba(33, 30, 25, .1);
+}
+
+.hotel-service-3 .item-photo {
+    padding: 30px;
+    -webkit-box-shadow: 0 0 100px 0 rgba(33, 30, 25, .1);
+    -moz-box-shadow: 0 0 100px 0 rgba(33, 30, 25, .1);
+    box-shadow: 0 0 100px 0 rgba(33, 30, 25, .1);
+}
+
+.hotel-service-3 .item-photo img {
+    width: 100%;
+}
+
+
