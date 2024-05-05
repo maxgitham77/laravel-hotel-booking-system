@@ -80,17 +80,25 @@ img {
 
 .fp__testimonial_product {
     position: absolute;
-    width: 130px;
-    height: 130px;
+    width-: 130px;
+    height-: 130px;
     border-radius: 50%;
-    top: -20px;
-    right: -20px;
+    top-: -20px;
+    right-: -20px;
+    top: 7px;
+    right: 8px;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
     box-shadow: black;
     z-index: 1;
+}
+
+.fp__testimonial_product img {
+    width: 100px !important;
+    height: 100px !important;
+    border-radius: 50%;
 }
 
 .fp__single_testimonial::after {

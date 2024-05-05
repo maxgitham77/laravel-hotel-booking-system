@@ -585,8 +585,13 @@
                 </ul>
             </div>
             @php
+            if (isset(\Illuminate\Support\Facades\Auth::user()->id)) {
                 $user_id = \Illuminate\Support\Facades\Auth::user()->id;
                 $user = \App\Models\User::find($user_id);
+            }  else {
+                return redirect()->route('admin.login');
+            }
+
             @endphp
             <div class="user-box dropdown px-3">
                 <a class="d-flex align-items-center nav-link dropdown-toggle gap-3 dropdown-toggle-nocaret" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">

@@ -12,6 +12,7 @@
     <link href="{{ asset('backend/assets/plugins/simplebar/css/simplebar.css') }}" rel="stylesheet" />
     <link href="{{ asset('backend/assets/plugins/perfect-scrollbar/css/perfect-scrollbar.css') }}" rel="stylesheet" />
     <link href="{{ asset('backend/assets/plugins/metismenu/css/metisMenu.min.css') }}" rel="stylesheet"/>
+
     <!-- loader-->
     <link href="{{ asset('backend/assets/css/pace.min.css') }}" rel="stylesheet"/>
     <script src="{{ asset('backend/assets/js/pace.min.js') }}"></script>
@@ -21,12 +22,22 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
     <link href="{{ asset('backend/assets/css/app.css') }}" rel="stylesheet">
     <link href="{{ asset('backend/assets/css/icons.css') }}" rel="stylesheet">
+    <link href="{{ asset('backend/assets/css/image-preview.css') }}" rel="stylesheet">
+
+    <link rel="stylesheet" href="{{ asset('backend/assets/css/fontawesome/css/all.min.css') }}">
+    <link href="{{ asset('backend/assets/css/datatables-manual.css') }}" rel="stylesheet">
+    <link href="{{ asset('backend/assets/css/select2-manual.css') }}" rel="stylesheet">
+    <link href="{{ asset('backend/assets/css/bootstrap-iconpicker.min.css') }}" rel="stylesheet">
+
     <!-- Theme Style CSS -->
     <link rel="stylesheet" href="{{ asset('backend/assets/css/dark-theme.css') }}"/>
     <link rel="stylesheet" href="{{ asset('backend/assets/css/semi-dark.css') }}"/>
     <link rel="stylesheet" href="{{ asset('backend/assets/css/header-colors.css') }}"/>
+    <link href="{{ asset('backend/assets/css/styles.css') }}" rel="stylesheet">
 
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.css" >
+    @vite(['resources/js/app.js', 'resources/css/app.css'])
+
     <title>Reise Ziel Hamburg Admin</title>
 </head>
 
@@ -213,27 +224,52 @@
     </div>
 </div>
 <!--end switcher-->
+
 <!-- Bootstrap JS -->
-<script src="{{ asset('backend/assets/js/bootstrap.bundle.min.js') }}"></script>
-<!--plugins-->
 <script src="{{ asset('backend/assets/js/jquery.min.js') }}"></script>
+
+<script src="{{ asset('backend/assets/js/bootstrap.bundle.min.js') }}"></script>
+<script src="{{ asset('backend/assets/js/popper.js') }}"></script>
+<!--plugins-->
+
 <script src="{{ asset('backend/assets/plugins/simplebar/js/simplebar.min.js') }}"></script>
 <script src="{{ asset('backend/assets/plugins/metismenu/js/metisMenu.min.js') }}"></script>
 <script src="{{ asset('backend/assets/plugins/perfect-scrollbar/js/perfect-scrollbar.js') }}"></script>
 <script src="{{ asset('backend/assets/plugins/vectormap/jquery-jvectormap-2.0.2.min.js') }}"></script>
 <script src="{{ asset('backend/assets/plugins/vectormap/jquery-jvectormap-world-mill-en.js') }}"></script>
-<script src="{{ asset('backend/assets/plugins/chartjs/js/chart.js') }}"></script>
+
+{{--<script src="{{ asset('backend/assets/plugins/chartjs/js/chart.js') }}"></script>--}}
 <script src="{{ asset('backend/assets/js/index.js') }}"></script>
+
+<script src="{{ asset('backend/assets/js/sweetalert2.js') }}"></script>
+<script src="{{ asset('backend/assets/js/datatables-manual.js') }}"></script>
+<script src="{{ asset('backend/assets/js/select2-manual.js') }}"></script>
+
+<script src="{{ asset('backend/assets/js/bootstrap-iconpicker.bundle.min.js') }}"></script>
+<script src="{{ asset('backend/assets/js/upload-preview/assets/js/jquery.uploadPreview.js') }}"></script>
+
+
 <!--app JS-->
 <script src="{{ asset('backend/assets/js/app.js') }}"></script>
 <script>
     new PerfectScrollbar(".app-container")
 </script>
-
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
-
+<script src="{{ asset('backend/assets/js/toastr.min.js') }}"></script>
+<!--<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>-->
 <script>
-        @if(Session::has('message'))
+    /*$(document).ready(function() {
+        var table = $('#example2').DataTable( {
+            lengthChange: false,
+            buttons: [ 'copy', 'excel', 'pdf', 'print']
+        } );
+
+        table.buttons().container()
+            .appendTo( '#example2_wrapper .col-md-6:eq(0)' );
+    } );*/
+</script>
+<script>
+
+    @if(Session::has('message'))
     var type = "{{ Session::get('alert-type','info') }}"
     switch(type){
         case 'info':
@@ -253,8 +289,63 @@
             break;
     }
     @endif
+
+    $(document).ready(function() {
+        $.uploadPreview({
+            input_field: "#image-upload",   // Default: .image-upload
+            preview_box: "#image-preview",  // Default: .image-preview
+            label_field: "#image-label",    // Default: .image-label
+            label_default: "Choose File",   // Default: Choose File
+            label_selected: "Change File",  // Default: Change File
+            no_label: false,                // Default: false
+            success_callback: null          // Default: null
+        });
+    });
+
+    $('body').on('click', '.delete-item', function (e) {
+        e.preventDefault();
+        Swal.fire({
+            title: "Are you sure?",
+            text: "You won't be able to revert this!",
+            icon: "warning",
+            showCancelButton: true,
+            confirmButtonColor: "#3085d6",
+            cancelButtonColor: "#d33",
+            confirmButtonText: "Yes, delete it!"
+        }).then((result) => {
+            if (result.isConfirmed) {
+                let url = $(this).attr('href');
+                //console.log(url);
+                $.ajax({
+                    method: 'DELETE',
+                    url: url,
+                    data: {_token: "{{ csrf_token() }}"},
+                    success: function (response) {
+                        if(response.status === 'success') {
+                            Swal.fire({
+                                title: "Deleted!",
+                                message: response.message,
+                                icon: "success"
+                            });
+                            window.location.reload()
+                        }
+                    },
+                    error: function (xhr, status, error) {
+                        console.log(error);
+                    }
+                });
+
+            }
+        });
+    });
+
+    $(document).ready(function() {
+        $('.js-example-basic-multiple').select2();
+    });
+
 </script>
 
+@stack('scripts')
 </body>
 
 </html>

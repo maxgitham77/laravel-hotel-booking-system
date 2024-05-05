@@ -27,7 +27,7 @@
                             </div>
                             <div class="text">
                                 <h4>isita islam</h4>
-                                <p>nyc usa</p>
+                                <p>Kiel, Germany</p>
                             </div>
                         </div>
                         <div class="fp__single_testimonial_body">
@@ -44,7 +44,7 @@
                             </span>
                         </div>
                         <div class="fp__testimonial_product">
-                            <img src="{{ asset('frontend/img/users/user-1.jpg') }}" alt="product" class="img-fluid w-100">
+                            <img src="{{ asset('frontend/img/room/image-4.JPG') }}" alt="product" class="img-fluid w-100">
                         </div>
                     </div>
                 </div>
@@ -56,7 +56,7 @@
                             </div>
                             <div class="text">
                                 <h4>sumon mahmud</h4>
-                                <p>nyc usa</p>
+                                <p>Hamburg, Germany</p>
                             </div>
                         </div>
                         <div class="fp__single_testimonial_body">
@@ -73,7 +73,7 @@
                             </span>
                         </div>
                         <div class="fp__testimonial_product">
-                            <img src="{{ asset('frontend/img/users/user-4.jpg') }}" alt="product" class="img-fluid w-100">
+                            <img src="{{ asset('frontend/img/room/image-3.JPG') }}" alt="product" class="img-fluid w-100">
                         </div>
                     </div>
                 </div>
@@ -85,7 +85,7 @@
                             </div>
                             <div class="text">
                                 <h4>israt jahan</h4>
-                                <p>nyc usa</p>
+                                <p>Bremen, Germany</p>
                             </div>
                         </div>
                         <div class="fp__single_testimonial_body">
@@ -102,7 +102,7 @@
                             </span>
                         </div>
                         <div class="fp__testimonial_product">
-                            <img src="{{ asset('frontend/img/users/user-3.jpg') }}" alt="product" class="img-fluid w-100">
+                            <img src="{{ asset('frontend/img/room/room-3.JPG') }}" alt="product" class="img-fluid w-100">
                         </div>
                     </div>
                 </div>
@@ -114,7 +114,7 @@
                             </div>
                             <div class="text">
                                 <h4>payel sarkar</h4>
-                                <p>nyc usa</p>
+                                <p>Rom, Italy</p>
                             </div>
                         </div>
                         <div class="fp__single_testimonial_body">
@@ -131,7 +131,7 @@
                             </span>
                         </div>
                         <div class="fp__testimonial_product">
-                            <img src="{{ asset('frontend/img/users/user-5.jpg') }}" alt="product" class="img-fluid w-100">
+                            <img src="{{ asset('frontend/img/room/room-5.JPG') }}" alt="product" class="img-fluid w-100">
                         </div>
                     </div>
                 </div>
@@ -143,7 +143,7 @@
                             </div>
                             <div class="text">
                                 <h4>sima khan</h4>
-                                <p>nyc usa</p>
+                                <p>Munich, Germany</p>
                             </div>
                         </div>
                         <div class="fp__single_testimonial_body">
@@ -160,7 +160,7 @@
                             </span>
                         </div>
                         <div class="fp__testimonial_product">
-                            <img src="{{ asset('frontend/img/users/user-1.jpg') }}" alt="product" class="img-fluid w-100">
+                            <img src="{{ asset('frontend/img/room/bedroom-1.jpg') }}" alt="product" class="img-fluid w-100">
                         </div>
                     </div>
                 </div>
@@ -172,7 +172,7 @@
                             </div>
                             <div class="text">
                                 <h4>labonno ahmed</h4>
-                                <p>nyc usa</p>
+                                <p>New York City, usa</p>
                             </div>
                         </div>
                         <div class="fp__single_testimonial_body">
@@ -189,7 +189,7 @@
                             </span>
                         </div>
                         <div class="fp__testimonial_product">
-                            <img src="{{ asset('frontend/img/users/user-4.jpg') }}" alt="product" class="img-fluid w-100">
+                            <img src="{{ asset('frontend/img/room/room-1.JPG') }}" alt="product" class="img-fluid w-100">
                         </div>
                     </div>
                 </div>
@@ -201,7 +201,7 @@
                             </div>
                             <div class="text">
                                 <h4>maruf kaji</h4>
-                                <p>nyc usa</p>
+                                <p>Colorado, usa</p>
                             </div>
                         </div>
                         <div class="fp__single_testimonial_body">
@@ -218,7 +218,7 @@
                             </span>
                         </div>
                         <div class="fp__testimonial_product">
-                            <img src="{{ asset('frontend/img/users/user-3.jpg') }}" alt="product" class="img-fluid w-100">
+                            <img src="{{ asset('frontend/img/room/room-3.JPG') }}" alt="product" class="img-fluid w-100">
                         </div>
                     </div>
                 </div>
@@ -230,7 +230,7 @@
                             </div>
                             <div class="text">
                                 <h4>foysal khan</h4>
-                                <p>nyc usa</p>
+                                <p>Berlin, Germany</p>
                             </div>
                         </div>
                         <div class="fp__single_testimonial_body">
@@ -247,7 +247,7 @@
                             </span>
                         </div>
                         <div class="fp__testimonial_product">
-                            <img src="{{ asset('frontend/img/users/user-2.jpg') }}" alt="product" class="img-fluid w-100">
+                            <img src="{{ asset('frontend/img/shop/tshirt-2.jpg') }}" alt="product" class="img-fluid w-100">
                         </div>
                     </div>
                 </div>
@@ -259,7 +259,7 @@
                             </div>
                             <div class="text">
                                 <h4>isita islam</h4>
-                                <p>nyc usa</p>
+                                <p>Duisburg, Germany</p>
                             </div>
                         </div>
                         <div class="fp__single_testimonial_body">
@@ -276,7 +276,7 @@
                             </span>
                         </div>
                         <div class="fp__testimonial_product">
-                            <img src="{{ asset('frontend/img/users/user-1.jpg') }}" alt="product" class="img-fluid w-100">
+                            <img src="{{ asset('frontend/img/room/bedroom-3.jpg') }}" alt="product" class="img-fluid w-100">
                         </div>
                     </div>
                 </div>

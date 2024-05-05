@@ -29,7 +29,7 @@
                             <header class="clearfix">
                                 <div class="pull-left">
                                     <h5 class="title">
-                                        <a href="rooms-details.html">King Suite</a>
+                                        <a href="#">King Suite</a>
                                     </h5>
                                     <ul class="custom-list">
                                         <li>
@@ -79,7 +79,7 @@
                             </ul>
                             <!-- Btn Div-->
                             <div class="btn-div">
-                                <a href="rooms-details.html">
+                                <a href="#">
                                     <span class="read-more">Ream More</span>
                                     <span class="icon-arrow-right2 bg-danger">
                                     <i class="fa  fa-angle-right"></i>
@@ -100,7 +100,7 @@
                             <header class="clearfix">
                                 <div class="pull-left">
                                     <h5 class="title">
-                                        <a href="rooms-details.html">King Suite</a>
+                                        <a href="#">King Suite</a>
                                     </h5>
                                     <ul class="custom-list">
                                         <li>
@@ -150,7 +150,7 @@
                             </ul>
                             <!-- Btn Div-->
                             <div class="btn-div">
-                                <a href="rooms-details.html">
+                                <a href="#">
                                     <span class="read-more">Ream More</span>
                                     <span class="icon-arrow-right2 bg-danger">
                                     <i class="fa  fa-angle-right"></i>
@@ -171,7 +171,7 @@
                             <header class="clearfix">
                                 <div class="pull-left">
                                     <h5 class="title">
-                                        <a href="rooms-details.html">King Suite</a>
+                                        <a href="#">King Suite</a>
                                     </h5>
                                     <ul class="custom-list">
                                         <li>
@@ -221,7 +221,7 @@
                             </ul>
                             <!-- Btn Div-->
                             <div class="btn-div">
-                                <a href="rooms-details.html">
+                                <a href="#">
                                     <span class="read-more">Ream More</span>
                                     <span class="icon-arrow-right2 bg-danger">
                                     <i class="fa  fa-angle-right"></i>
@@ -242,7 +242,7 @@
                             <header class="clearfix">
                                 <div class="pull-left">
                                     <h5 class="title">
-                                        <a href="rooms-details.html">King Suite</a>
+                                        <a href="#">King Suite</a>
                                     </h5>
                                     <ul class="custom-list">
                                         <li>
@@ -292,7 +292,7 @@
                             </ul>
                             <!-- Btn Div-->
                             <div class="btn-div">
-                                <a href="rooms-details.html">
+                                <a href="#">
                                     <span class="read-more">Ream More</span>
                                     <span class="icon-arrow-right2 bg-danger">
                                     <i class="fa  fa-angle-right"></i>
@@ -313,7 +313,7 @@
                             <header class="clearfix">
                                 <div class="pull-left">
                                     <h5 class="title">
-                                        <a href="rooms-details.html">King Suite</a>
+                                        <a href="#">King Suite</a>
                                     </h5>
                                     <ul class="custom-list">
                                         <li>
@@ -363,7 +363,7 @@
                             </ul>
                             <!-- Btn Div-->
                             <div class="btn-div">
-                                <a href="rooms-details.html">
+                                <a href="#">
                                     <span class="read-more">Ream More</span>
                                     <span class="icon-arrow-right2 bg-danger">
                                     <i class="fa  fa-angle-right"></i>
@@ -384,7 +384,7 @@
                             <header class="clearfix">
                                 <div class="pull-left">
                                     <h5 class="title">
-                                        <a href="rooms-details.html">King Suite</a>
+                                        <a href="#">King Suite</a>
                                     </h5>
                                     <ul class="custom-list">
                                         <li>
@@ -434,7 +434,7 @@
                             </ul>
                             <!-- Btn Div-->
                             <div class="btn-div">
-                                <a href="rooms-details.html">
+                                <a href="#">
                                     <span class="read-more">Ream More</span>
                                     <span class="icon-arrow-right2 bg-danger">
                                     <i class="fa  fa-angle-right"></i>
@@ -455,7 +455,7 @@
                             <header class="clearfix">
                                 <div class="pull-left">
                                     <h5 class="title">
-                                        <a href="rooms-details.html">King Suite</a>
+                                        <a href="#">King Suite</a>
                                     </h5>
                                     <ul class="custom-list">
                                         <li>
@@ -505,7 +505,7 @@
                             </ul>
                             <!-- Btn Div-->
                             <div class="btn-div">
-                                <a href="rooms-details.html">
+                                <a href="#">
                                     <span class="read-more">Ream More</span>
                                     <span class="icon-arrow-right2 bg-danger">
                                     <i class="fa  fa-angle-right"></i>
@@ -526,7 +526,7 @@
                             <header class="clearfix">
                                 <div class="pull-left">
                                     <h5 class="title">
-                                        <a href="rooms-details.html">King Suite</a>
+                                        <a href="#">King Suite</a>
                                     </h5>
                                     <ul class="custom-list">
                                         <li>
@@ -576,7 +576,7 @@
                             </ul>
                             <!-- Btn Div-->
                             <div class="btn-div">
-                                <a href="rooms-details.html">
+                                <a href="#">
                                     <span class="read-more">Ream More</span>
                                     <span class="icon-arrow-right2 bg-danger">
                                     <i class="fa  fa-angle-right"></i>
@@ -597,7 +597,7 @@
                             <header class="clearfix">
                                 <div class="pull-left">
                                     <h5 class="title">
-                                        <a href="rooms-details.html">King Suite</a>
+                                        <a href="#">King Suite</a>
                                     </h5>
                                     <ul class="custom-list">
                                         <li>
@@ -647,7 +647,7 @@
                             </ul>
                             <!-- Btn Div-->
                             <div class="btn-div">
-                                <a href="rooms-details.html">
+                                <a href="#">
                                     <span class="read-more">Ream More</span>
                                     <span class="icon-arrow-right2 bg-danger">
                                     <i class="fa  fa-angle-right"></i>

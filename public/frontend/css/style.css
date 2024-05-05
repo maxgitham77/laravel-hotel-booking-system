@@ -10072,7 +10072,7 @@ Footer Area
 }
 
 .footer-widget .footer-list li a:hover {
-    color: #B56952;
+    color: whitesmoke;
 }
 
 .footer-widget .footer-form .form-group {
@@ -10737,7 +10737,7 @@ Short Intro Starts
 
 .logoR
 {
-    width: 80px !important;
+    width: 106px !important;
     height: 100px !important;
     margin: auto;
     text-align: center;

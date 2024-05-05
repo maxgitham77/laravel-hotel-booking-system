@@ -1,7 +1,17 @@
 <div class="banner" id="banner">
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner banner-slider-inner text-center">
-            <div class="carousel-item banner-max-height active item-bg">
+
+                <div class="carousel-item banner-max-height active item-bg">
+                <img class="d-block w-100 h-100" src="{{ asset('frontend/img/hamburg-bei-nacht.jpg') }}" alt="banner">
+                <div class="carousel-content container banner-info-2 bi-2 text-left">
+                    <h3>Welcome to ReiseZiel Hamburg</h3>
+                    <h5>Our 68 rooms and suites are wonderfully comfortable with a sleek décor..</h5>
+                    <a href="{{ route('rooms.page') }}" class="btn btn-lg btn-theme">VIEW ALL ROOMS</a>
+                </div>
+            </div>
+
+            {{--<div class="carousel-item banner-max-height active item-bg">
                 <img class="d-block w-100 h-100" src="{{ asset('frontend/img/hamburg-bei-nacht.jpg') }}" alt="banner">
                 <div class="carousel-content container banner-info-2 bi-2 text-left">
                     <h3>Welcome to ReiseZiel Hamburg</h3>
@@ -48,7 +58,7 @@
                     <h5>More great experience than hotel Both a destination and a journey</h5>
                     <a href="{{ route('services.page') }}" class="btn btn-lg btn-theme">VIEW OUR SERVICES</a>
                 </div>
-            </div>
+            </div>--}}
         </div>
         <!-- Search box 3 start -->
         <div class="search-box-4 sb-8">
@@ -94,7 +104,7 @@
             </form>
         </div>
         <!-- Search box 3 end -->
-        <a class="carousel-control-prev none-580" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <!--<a class="carousel-control-prev none-580" href="#carouselExampleIndicators" role="button" data-slide="prev">
             <span class="slider-mover-left" aria-hidden="true">
                 <i class="fa fa-angle-left"></i>
             </span>
@@ -103,6 +113,6 @@
             <span class="slider-mover-right" aria-hidden="true">
                 <i class="fa fa-angle-right"></i>
             </span>
-        </a>
+        </a>-->
     </div>
 </div>

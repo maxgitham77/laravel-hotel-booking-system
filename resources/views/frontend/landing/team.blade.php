@@ -21,7 +21,7 @@
                             </div>
                         </div>
                         <div class="details">
-                            <h4><a href="team-detail.html">Brandon Miller</a></h4>
+                            <h4><a href="#">Brandon Miller</a></h4>
                             <h5>CEO</h5>
                         </div>
                     </div>
@@ -39,7 +39,7 @@
                             </div>
                         </div>
                         <div class="details">
-                            <h4><a href="team-detail.html">Michelle Nelson</a></h4>
+                            <h4><a href="#">Michaela Nelson</a></h4>
                             <h5>Support Manager</h5>
                         </div>
                     </div>
@@ -57,7 +57,7 @@
                             </div>
                         </div>
                         <div class="details">
-                            <h4><a href="team-detail.html">Stone Carolyn</a></h4>
+                            <h4><a href="#">Kathrin Kowluski</a></h4>
                             <h5>Communication</h5>
                         </div>
                     </div>
@@ -75,7 +75,7 @@
                             </div>
                         </div>
                         <div class="details">
-                            <h4><a href="team-detail.html">Martin Smith</a></h4>
+                            <h4><a href="#">Martin Müller</a></h4>
                             <h5>Marketing</h5>
                         </div>
                     </div>
@@ -93,7 +93,7 @@
                             </div>
                         </div>
                         <div class="details">
-                            <h4><a href="team-detail.html">Stone Carolyn</a></h4>
+                            <h4><a href="#">Jennie Bach</a></h4>
                             <h5>Sales Director</h5>
                         </div>
                     </div>

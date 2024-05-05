@@ -25,7 +25,7 @@
                             <img src="{{ asset('frontend/img/room/bedroom-1.jpg') }}" alt="blog" class="img-fluid w-100">
                         </a>
                         <div class="fp__single_blog_text">
-                            <a class="category" href="#">chicken</a>
+                            <a class="category" href="#">Single</a>
                             <ul class="d-flex flex-wrap mt_15">
                                 <li><i class="fas fa-user" aria-hidden="true"></i>admin</li>
                                 <li><i class="fas fa-calendar-alt" aria-hidden="true"></i> 25 oct 2022</li>
@@ -41,7 +41,7 @@
                             <img src="{{ asset('frontend/img/room/bedroom-2.jpg') }}" alt="blog" class="img-fluid w-100">
                         </a>
                         <div class="fp__single_blog_text">
-                            <a class="category" href="#">kabab</a>
+                            <a class="category" href="#">Double</a>
                             <ul class="d-flex flex-wrap mt_15">
                                 <li><i class="fas fa-user" aria-hidden="true"></i>admin</li>
                                 <li><i class="fas fa-calendar-alt" aria-hidden="true"></i> 27 oct 2022</li>
@@ -58,7 +58,7 @@
                             <img src="{{ asset('frontend/img/room/bedroom-3.jpg') }}" alt="blog" class="img-fluid w-100">
                         </a>
                         <div class="fp__single_blog_text">
-                            <a class="category" href="#">grill</a>
+                            <a class="category" href="#">Suite</a>
                             <ul class="d-flex flex-wrap mt_15">
                                 <li><i class="fas fa-user" aria-hidden="true"></i>admin</li>
                                 <li><i class="fas fa-calendar-alt" aria-hidden="true"></i> 27 oct 2022</li>
@@ -75,7 +75,7 @@
                             <img src="{{ asset('frontend/img/room/bedroom-4.jpg') }}" alt="blog" class="img-fluid w-100">
                         </a>
                         <div class="fp__single_blog_text">
-                            <a class="category" href="#">chicken</a>
+                            <a class="category" href="#">Single</a>
                             <ul class="d-flex flex-wrap mt_15">
                                 <li><i class="fas fa-user" aria-hidden="true"></i>admin</li>
                                 <li><i class="fas fa-calendar-alt" aria-hidden="true"></i> 25 oct 2022</li>
@@ -91,7 +91,7 @@
                             <img src="{{ asset('frontend/img/room/bedroom-6.jpg') }}" alt="blog" class="img-fluid w-100">
                         </a>
                         <div class="fp__single_blog_text">
-                            <a class="category" href="#">kabab</a>
+                            <a class="category" href="#">Double</a>
                             <ul class="d-flex flex-wrap mt_15">
                                 <li><i class="fas fa-user" aria-hidden="true"></i>admin</li>
                                 <li><i class="fas fa-calendar-alt" aria-hidden="true"></i> 27 oct 2022</li>
@@ -108,7 +108,7 @@
                             <img src="{{ asset('frontend/img/room/bedroom-1.jpg') }}" alt="blog" class="img-fluid w-100">
                         </a>
                         <div class="fp__single_blog_text">
-                            <a class="category" href="#">grill</a>
+                            <a class="category" href="#">Suite</a>
                             <ul class="d-flex flex-wrap mt_15">
                                 <li><i class="fas fa-user" aria-hidden="true"></i>admin</li>
                                 <li><i class="fas fa-calendar-alt" aria-hidden="true"></i> 27 oct 2022</li>
@@ -125,7 +125,7 @@
                             <img src="{{ asset('frontend/img/room/bedroom-2.jpg') }}" alt="blog" class="img-fluid w-100">
                         </a>
                         <div class="fp__single_blog_text">
-                            <a class="category" href="#">chicken</a>
+                            <a class="category" href="#">Single</a>
                             <ul class="d-flex flex-wrap mt_15">
                                 <li><i class="fas fa-user" aria-hidden="true"></i>admin</li>
                                 <li><i class="fas fa-calendar-alt" aria-hidden="true"></i> 25 oct 2022</li>
@@ -141,7 +141,7 @@
                             <img src="{{ asset('frontend/img/room/bedroom-3.jpg') }}" alt="blog" class="img-fluid w-100">
                         </a>
                         <div class="fp__single_blog_text">
-                            <a class="category" href="#">kabab</a>
+                            <a class="category" href="#">Double</a>
                             <ul class="d-flex flex-wrap mt_15">
                                 <li><i class="fas fa-user" aria-hidden="true"></i>admin</li>
                                 <li><i class="fas fa-calendar-alt" aria-hidden="true"></i> 27 oct 2022</li>
@@ -158,7 +158,7 @@
                             <img src="{{ asset('frontend/img/room/bedroom-4.jpg') }}" alt="blog" class="img-fluid w-100">
                         </a>
                         <div class="fp__single_blog_text">
-                            <a class="category" href="#">grill</a>
+                            <a class="category" href="#">Suite</a>
                             <ul class="d-flex flex-wrap mt_15">
                                 <li><i class="fas fa-user" aria-hidden="true"></i>admin</li>
                                 <li><i class="fas fa-calendar-alt" aria-hidden="true"></i> 27 oct 2022</li>

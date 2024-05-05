@@ -18,3 +18,8 @@ yarn-error.log
 /.idea
 /.vscode
 note.txt
+
+package.json
+package-lock.json
+composer.json
+composer.lock
